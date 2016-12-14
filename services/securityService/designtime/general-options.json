@@ -9,7 +9,7 @@
   "xssConfig" : {
     "enforceXssSecurity" : true,
     "policyFile" : "wm-xss-policies.xml",
-    "xssFilterStrategy" : "WHITE_LIST"
+    "xssFilterStrategy" : "ENCODE"
   },
   "csrfConfig" : {
     "enforceCsrfSecurity" : false,
